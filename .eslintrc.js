@@ -18,6 +18,7 @@ module.exports = {
     },
     extends: ['omaha-prime-grade', 'plugin:react/recommended'],
     rules: {
-        'object-curly-spacing': ['error']
+        'object-curly-spacing': ['error'],
+        'react/display-name': ['off']
     }
 };
